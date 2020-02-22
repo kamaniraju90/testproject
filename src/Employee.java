@@ -3,7 +3,6 @@ public class Employee {
 	private int empId;
 	private String empName;
 	private double empSal;
-	private int deptNo;
 
 	public int getEmpId() {
 		return empId;
@@ -29,11 +28,4 @@ public class Employee {
 		this.empSal = empSal;
 	}
 
-	public int getDeptNo() {
-		return deptNo;
-	}
-
-	public void setDeptNo(int deptNo) {
-		this.deptNo = deptNo;
-	}
 }
